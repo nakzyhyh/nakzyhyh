@@ -1,4 +1,4 @@
-# 🌟 Hi there, I'm Kai Hoelters! 👋
+# 🌟 Hi there, I'm Kai! 👋
 
 <table>
   <tr>
