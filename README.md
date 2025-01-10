@@ -1,4 +1,4 @@
-# Hi there, I'm Kai! 👋
+#  Hi there, I'm Kai! 👋
 
 <table>
   <tr>
@@ -21,11 +21,33 @@
   </tr>
   <tr>
     <td>
-      <h2>🏗 Current Projects</h2>
-      <ul>
-        <li><b>Wahl-E:</b> An interactive political quiz empowering users with transparent data.</li>
-        <li><b>Portfolio Website:</b> Showcasing my career pivot journey and coding skills.</li>
-      </ul>
+      <h2>📊 Current Projects & Progress</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Status</th>
+            <th>Progress</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Wahl-E</td>
+            <td>In Progress</td>
+            <td>🔵🔵🔵⚪⚪⚪⚪ 50%</td>
+          </tr>
+          <tr>
+            <td>Portfolio Website</td>
+            <td>Testing</td>
+            <td>🔵🔵🔵🔵🔵⚪⚪ 70%</td>
+          </tr>
+          <tr>
+            <td>Learning React</td>
+            <td>Exploring</td>
+            <td>🔵🔵⚪⚪⚪⚪⚪ 20%</td>
+          </tr>
+        </tbody>
+      </table>
     </td>
     <td>
       <h2>✨ Fun Facts About Me</h2>
@@ -38,15 +60,13 @@
   </tr>
   <tr>
     <td colspan="2" style="text-align: center;">
-      <div style="border: 2px solid #007acc; border-radius: 10px; padding: 20px; display: flex; justify-content: center; align-items: center; text-align: center;">
-        <div>
-          <h2>🧭 My Vision</h2>
-          <p>
-            🔹 Use technology to make people's lives easier.<br>
-            🔹 Merge creativity with technical skills to solve real-world problems.<br>
-            🔹 Collaborate with innovative teams to shape the future of IT.
-          </p>
-        </div>
+      <div style="border: 2px solid #007acc; border-radius: 10px; padding: 20px; text-align: center;">
+        <h2>🧭 My Vision</h2>
+        <p>
+          🔹 Use technology to make people's lives easier.<br>
+          🔹 Merge creativity with technical skills to solve real-world problems.<br>
+          🔹 Collaborate with innovative teams to shape the future of IT.
+        </p>
       </div>
     </td>
   </tr>
