@@ -16,3 +16,21 @@ Integrating AI tools and APIs into web applications.
 ⚡ Fun fact:
 I’m constantly experimenting with new web technologies and… I’m still figuring out if I’m more of a cat or a dog person. 🐾
 
+### 📘 What I’m Learning
+- [x] HTML & CSS
+- [x] JavaScript Basics
+- [ ] React (In Progress)
+- [ ] Backend (Coming Soon!)
+
+💡 Hast du Tipps oder Ressourcen? [Lass es mich wissen!](https://github.com/yourusername/yourrepository/issues)
+
+
+### 🤔 Quick Quiz: How much do you know about web development?
+
+1. Welche Programmiersprache wird hauptsächlich für Frontend-Entwicklung verwendet?
+   - [ ] Python
+   - [ ] JavaScript
+   - [ ] C++
+   - [ ] Ruby
+
+➡️ [Antworten hier!](https://github.com/yourusername/yourrepository/discussions)
