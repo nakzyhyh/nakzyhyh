@@ -38,13 +38,15 @@
   </tr>
   <tr>
     <td colspan="2" style="text-align: center;">
-      <div style="border: 2px solid #007acc; border-radius: 10px; padding: 20px; display: inline-block; text-align: center;">
-        <h2>🧭 My Vision</h2>
-        <p>
-          🔹 Use technology to make people's lives easier.<br>
-          🔹 Merge creativity with technical skills to solve real-world problems.<br>
-          🔹 Collaborate with innovative teams to shape the future of IT.
-        </p>
+      <div style="border: 2px solid #007acc; border-radius: 10px; padding: 20px; display: flex; justify-content: center; align-items: center; text-align: center;">
+        <div>
+          <h2>🧭 My Vision</h2>
+          <p>
+            🔹 Use technology to make people's lives easier.<br>
+            🔹 Merge creativity with technical skills to solve real-world problems.<br>
+            🔹 Collaborate with innovative teams to shape the future of IT.
+          </p>
+        </div>
       </div>
     </td>
   </tr>
@@ -52,7 +54,7 @@
     <td>
       <h2>💬 Let's Connect</h2>
       <ul>
-        <li>📧 <b>Email:</b> kai.hoelters@example.com</li>
+        <li>📧 <b>Email:
         <li>🌐 <b>Portfolio:</b> <a href="#">My Website</a> (coming soon!)</li>
         <li>🔗 <b>LinkedIn:</b> <a href="#">LinkedIn Profile</a></li>
       </ul>
