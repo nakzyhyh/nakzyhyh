@@ -1,5 +1,7 @@
 # Hi there, I'm Kai! 👋
 
+![GitHub Banner](https://raw.githubusercontent.com/nakzyhyh/memyselfandi/main/github_slider.png)
+
 <table width="100%">
   <tr>
     <td width="50%">
@@ -87,9 +89,7 @@
       </ul>
     </td>
     <td width="50%">
-      <p><i>"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking. -- Steve Jobs
-
-"</i></p>
+      <p><i>"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking. -- Steve Jobs</i></p>
     </td>
   </tr>
 </table>
