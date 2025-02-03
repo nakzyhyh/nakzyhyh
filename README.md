@@ -87,8 +87,9 @@
       </ul>
     </td>
     <td width="50%">
-      <h2>🌌 My Motto</h2>
-      <p><i>"Technology is not just a tool; it’s an opportunity to change the world."</i></p>
+      <p><i>"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking. -- Steve Jobs
+
+"</i></p>
     </td>
   </tr>
 </table>
