@@ -28,13 +28,14 @@ Welcome to my GitHub! Passionate about AI, Web Development, and Data Science. I 
 
 ---
 
-## 📊 Ongoing Projects
+## 📊 **Ongoing Projects**
+| Project  | Status         | Progress |
+|----------|---------------|-----------|
+| 🗳️ **Wahl-E** | In Development  | 🔵🔵🔵⚪⚪⚪⚪ (50%) |
+| 🌐 **Portfolio Website** | Testing  | 🔵🔵🔵🔵🔵⚪⚪ (70%) |
+| 🧠 **LLM-powered Knowledge Base** | Prototyping  | 🔵🔵⚪⚪⚪⚪⚪ (20%) |
+| 📂 **Hub for Web & App Development** | Ongoing  | 🔵🔵🔵⚪⚪⚪⚪ (40%) |
 
-| Project | Status | Progress |
-|---------|--------|----------|
-| 🗳️ **Wahl-E** | In Development | 🔵🔵🔵⚪⚪⚪⚪ 50% |
-| 🌐 **Portfolio Website** | Testing | 🔵🔵🔵🔵🔵⚪⚪ 70% |
-| 🧠 **LLM-powered Knowledge Base** | Prototyping | 🔵🔵⚪⚪⚪⚪⚪ 20% |
 
 ---
 
