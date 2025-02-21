@@ -25,25 +25,22 @@ Welcome to my GitHub! Passionate about AI, Web Development, and Data Science. I 
 🚀 Developing intelligent chatbots using OpenAI, LangChain & Vector Databases.  
 📡 IT architecture & cloud computing (AWS, Azure, Docker, Kubernetes).  
 ⚡ Performance optimization in web applications.  
-
+ ⚙️ **Flask Best Practices**  
+  - **Diagnostic Tooling**: Combining different system & network diagnostic logic into a cohesive Flask-based solution.  
+  - **Static File Management**: Serving CSS/JS properly to avoid security or CORS pitfalls (no more file:// issues).  
+  - **Single-App Architecture**: Centralizing routes and running a single Flask instance instead of multiple scattered apps, ensuring simpler deployments.
 ---
 
 ## 📊 **Ongoing Projects**
-| Project  | Status         | Progress |
-|----------|---------------|-----------|
-| 🗳️ **Wahl-E** | In Development  | 🔵🔵🔵⚪⚪⚪⚪ (50%) |
-| 🌐 **Portfolio Website** | Testing  | 🔵🔵🔵🔵🔵⚪⚪ (70%) |
-| 🧠 **LLM-powered Knowledge Base** | Prototyping  | 🔵🔵⚪⚪⚪⚪⚪ (20%) |
-| 📂 **Hub for Web & App Development** | Ongoing  | 🔵🔵🔵⚪⚪⚪⚪ (40%) |
 
+| Project                                   | Status           | Progress                     |
+|-------------------------------------------|------------------|------------------------------|
+| 🗳️ **Wahl-E**                              | In Development   | 🔵🔵🔵🔵🔵🔵⚪ (90%)               |
+| 🌐 **Portfolio Website**                   | Testing          | 🔵🔵🔵🔵🔵⚪⚪ (70%)              |
+| 🧠 **LLM-powered Knowledge Base**          | Prototyping      | 🔵🔵⚪⚪⚪⚪⚪ (20%)              |
+| 📂 **Notion Hub for Web & App Development** | Ongoing          | 🔵🔵🔵⚪⚪⚪⚪ (40%)              |
+| 🛡️ **TotalIT Guardian**                    | New Project      | 🔵⚪⚪⚪⚪⚪⚪ (10%) 
 
----
-
-## 🎉 Fun Facts
-
-🔥 I love **optimizing complex processes** – whether in code or logistics!  
-🤖 Passionate about **IoT, automation, and AI ethics**.  
-📚 Always exploring the intersection of **technology & philosophy**.  
 
 ---
 
