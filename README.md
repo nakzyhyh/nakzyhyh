@@ -53,7 +53,7 @@ Welcome to my GitHub! Passionate about AI, Web Development, and Data Science. I 
 ---
 
 ## 📬 Let's Connect!
-📧 **Email:** (your email)  
+📧 **Email:** kaihoelters@icloud.com
 🌐 **Portfolio:** [Coming Soon!](#)  
 🔗 **LinkedIn:** [Your LinkedIn Profile](#)  
 🐙 **GitHub:** [Check my work](https://github.com/nakzyhyh)  
