@@ -1,0 +1,19 @@
+Ziel:
+Die Bereitstellung von Webanwendungen zu vereinfachen, indem alle Routen und Funktionalitäten in einer einzigen Flask-Anwendung zusammengeführt werden, anstatt mehrere separate Instanzen zu betreiben.
+
+Beschreibung:
+Oft entstehen Projekte, bei denen für unterschiedliche Aufgaben oder Module jeweils eigenständige Flask-Apps betrieben werden. Dies kann zu einem fragmentierten System führen, das schwer zu warten und zu skalieren ist. Mit dem Ansatz der Single-App Architecture wird alles in einer zentralen Anwendung vereint – häufig unter Nutzung von Flask Blueprints, um die Modularität zu erhalten.
+
+Funktionsweise:
+
+Zentralisierte Routenverwaltung:
+Statt mehrere Flask-Instanzen zu verwenden, werden alle Routen in einer einzigen Anwendung definiert. Mit Blueprints kann die Funktionalität dennoch in logisch getrennte Module unterteilt werden.
+Gemeinsame Konfiguration:
+Alle Module teilen sich dieselbe Konfiguration, Middleware und Fehlerbehandlung, was die Verwaltung und den Support deutlich vereinfacht.
+Einfaches Deployment:
+Da nur eine Anwendung deployt werden muss, reduziert sich der Aufwand für Server-Konfiguration, Monitoring und Skalierung erheblich.
+Nutzen:
+
+Vereinfachte Wartung: Eine einzige Codebasis erleichtert Updates, Debugging und Weiterentwicklung.
+Effizienteres Deployment: Weniger komplexe Bereitstellungsprozesse und Ressourcenverbrauch, da nur eine Anwendung gestartet und überwacht werden muss.
+Konsistente Nutzererfahrung: Eine einheitliche Anwendung sorgt für einen konsistenten Auftritt, da alle Komponenten miteinander harmonieren und auf denselben globalen Einstellungen basieren.
