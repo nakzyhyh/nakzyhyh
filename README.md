@@ -21,28 +21,40 @@ Welcome to my GitHub! Passionate about AI, Web Development, and Data Science. I 
 
 ## 🌱 Current Learning Goals
 
-🔍 Optimizing LLMs for personalization & performance enhancement.  
-🚀 Developing intelligent chatbots using OpenAI, LangChain & Vector Databases.  
-📡 IT architecture & cloud computing (AWS, Azure, Docker, Kubernetes).  
-⚡ Performance optimization in web applications.  
- ⚙️ **Flask Best Practices**  
-  - **Diagnostic Tooling**: Combining different system & network diagnostic logic into a cohesive Flask-based solution.  
-  - **Static File Management**: Serving CSS/JS properly to avoid security or CORS pitfalls (no more file:// issues).  
-  - **Single-App Architecture**: Centralizing routes and running a single Flask instance instead of multiple scattered apps, ensuring simpler deployments.
----
+- **🔍 Optimizing LLMs:**  
+  Focus on personalization and performance enhancement of large language models.
 
-## 📊 **Ongoing Projects**
+- **🚀 Intelligent Chatbots:**  
+  Developing chatbots with OpenAI, LangChain, and vector databases.
 
-| Project                                   | Status           | Progress                     |
-|-------------------------------------------|------------------|------------------------------|
-| 🗳️ **Wahl-E**                              | In Development   | 🔵🔵🔵🔵🔵🔵⚪ (90%)               |
-| 🌐 **Portfolio Website**                   | Testing          | 🔵🔵🔵🔵🔵⚪⚪ (70%)              |
-| 🧠 **LLM-powered Knowledge Base**          | Prototyping      | 🔵🔵⚪⚪⚪⚪⚪ (20%)              |
-| 📂 **Notion Hub for Web & App Development** | Ongoing          | 🔵🔵🔵⚪⚪⚪⚪ (40%)              |
-| 🛡️ **TotalIT Guardian**                    | New Project      | 🔵⚪⚪⚪⚪⚪⚪ (10%) 
+- **📡 IT Architecture & Cloud Computing:**  
+  Deep dive into AWS, Azure, Docker, and Kubernetes for scalable solutions.
 
+- **⚡ Web App Performance Optimization:**  
+  Enhancing web application speed and efficiency through best practices and optimization techniques.
+
+- **⚙️ Flask Best Practices:**  
+  Building robust Flask applications with centralized routes and efficient static file management.
+
+- **🌐 Advanced Web Crawling:**  
+  Designing and implementing recursive web crawlers to extract detailed content from complex websites and integrating them with PDF generation workflows.
 
 ---
+
+### Current Projects
+
+- **Diagnostic Tooling:**  
+  Integrating various system and network diagnostic logics into a cohesive Flask-based solution.
+
+- **Static File Management:**  
+  Ensuring CSS/JS are served securely to eliminate file:// and CORS issues.
+
+- **Single-App Architecture:**  
+  Streamlining deployments by consolidating routes and managing a single Flask instance rather than multiple scattered apps.
+
+- **Dubaro Web Crawler:**  
+  Developing a recursive web crawler for [dubaro.de](https://www.dubaro.de/) that navigates through product detail pages and configuration sections (e.g. *Konfigurieren und Bestellen*) to extract all relevant information and consolidate it into a PDF document.
+
 
 ## 🌍 My Vision
 
