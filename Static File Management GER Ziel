@@ -1,0 +1,20 @@
+Static File Management
+Ziel:
+Die Verwaltung und Auslieferung von statischen Dateien (wie CSS und JavaScript) so zu gestalten, dass Sicherheitsprobleme (z. B. file://-Zugriffe) und CORS-Probleme (Cross-Origin Resource Sharing) vermieden werden.
+
+Beschreibung:
+Webanwendungen nutzen häufig statische Ressourcen, die im Browser geladen werden. Werden diese jedoch falsch ausgeliefert – etwa über unsichere file://-Protokolle oder ohne die richtigen CORS-Header – kann dies zu Sicherheitslücken und Funktionseinschränkungen führen. Das Projekt fokussiert sich daher darauf, einen Mechanismus zu entwickeln, der sicherstellt, dass alle statischen Dateien korrekt konfiguriert und ausgeliefert werden.
+
+Funktionsweise:
+
+Richtige Serverkonfiguration:
+In der Flask-Anwendung wird ein dedizierter Ordner (z. B. static/) verwendet, aus dem CSS, JavaScript und andere statische Assets bereitgestellt werden.
+Sicherheitsheader:
+Es werden HTTP-Header (wie Access-Control-Allow-Origin) korrekt gesetzt, um CORS-Probleme zu vermeiden. Dadurch wird sichergestellt, dass die Dateien nur von autorisierten Quellen geladen werden.
+Vermeidung von file://-Zugriffen:
+Statt lokale Dateipfade zu verwenden, werden alle statischen Dateien über HTTP/HTTPS ausgeliefert, sodass moderne Browser sie sicher laden können.
+Nutzen:
+
+Erhöhte Sicherheit: Durch die korrekte Auslieferung der statischen Dateien werden potenzielle Angriffsflächen reduziert.
+Bessere Kompatibilität: Probleme, die durch file://-Zugriffe oder fehlerhafte CORS-Konfigurationen entstehen, werden vermieden.
+Optimierte Performance: Eine einheitliche Verwaltung und Auslieferung der Ressourcen kann zudem die Ladezeiten der Webanwendung verbessern.
