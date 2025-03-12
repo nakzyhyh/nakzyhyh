@@ -1,0 +1,23 @@
+Diagnostic Tooling
+Ziel:
+Ein zentrales Diagnose-Tool zu entwickeln, das verschiedene System- und Netzwerkdiagnose-Logiken in einer einheitlichen Flask-Anwendung zusammenführt.
+
+Beschreibung:
+In diesem Projekt werden unterschiedliche Diagnosefunktionen – wie etwa Systemstatusprüfungen, Netzwerktests (Ping, Traceroute, Port-Scans), Log-Analysen und Leistungsüberwachungen – integriert. Anstatt für jede dieser Funktionen separate Skripte oder Tools zu nutzen, werden alle in einer Flask-basierten Webanwendung konsolidiert.
+
+Funktionsweise:
+
+Modulare Diagnosekomponenten:
+Verschiedene Diagnoselogs (z. B. CPU-, Speicher- oder Netzwerkstatus) werden in einzelne Module unterteilt. Diese Module können jeweils eigenständig Daten erfassen und analysieren.
+
+Zentralisierte Web-Oberfläche:
+Mithilfe von Flask wird eine übersichtliche Benutzeroberfläche bereitgestellt, über die alle Diagnoseergebnisse abgerufen werden können. So können Administratoren oder Nutzer in Echtzeit den Zustand des Systems und des Netzwerks überwachen.
+
+Erweiterbarkeit und Integration:
+Das Tool ist so aufgebaut, dass weitere Diagnose-Module problemlos integriert werden können. Es werden zum Beispiel auch Skripte zur Überwachung von Services oder zur Auswertung von Logdateien eingebunden.
+
+Nutzen:
+
+Schnelle Übersicht: Alle wichtigen Diagnosedaten stehen an einem Ort zur Verfügung.
+Automatisierung: Regelmäßige Überprüfungen können automatisiert und bei Problemen Alarm geschlagen werden.
+Zentrale Fehleranalyse: Durch die Zusammenführung der Diagnoseergebnisse können Zusammenhänge schneller erkannt und systematisch behoben werden.
