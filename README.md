@@ -52,9 +52,8 @@ Welcome to my GitHub! Passionate about AI, Web Development, and Data Science. I 
 - **Single-App Architecture:**  
   Streamlining deployments by consolidating routes and managing a single Flask instance rather than multiple scattered apps.
 
-- **Dubaro Web Crawler:**  
-  Developing a recursive web crawler for [dubaro.de](https://www.dubaro.de/) that navigates through product detail pages and configuration sections (e.g. *Konfigurieren und Bestellen*) to extract all relevant information and consolidate it into a PDF document.
-
+- **Web Crawler:**  
+  I'm currently developing a recursive web crawler that navigates through product detail pages and configuration sections (such as Configure and Order) on websites. The crawler extracts all relevant product information, including specifications, prices, and configuration options. It consolidates this data into a structured PDF document for easy review and documentation. The focus is on automating data collection from complex, multi-layered web structures and presenting it in a clear, accessible format. The solution is built using Python, leveraging libraries like BeautifulSoup for parsing and FPDF for generating the final reports.
 
 ## 🌍 My Vision
 
