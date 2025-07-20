@@ -8,9 +8,15 @@ Ich glaube fest daran, dass die besten Werkzeuge aus dem tiefen Verständnis ein
 
 ### 💬 Community-Feedback & Ideen
 
-Haben Sie eine Idee für ein neues Feature oder eine Frage zu meinen Projekten? Ich freue mich über jeden Input! Erstellen Sie einfach ein **[neues Issue](https://github.com/nakzyhyh/nakzyhyh/issues/new/choose)** und versehen Sie es mit dem `feedback`-Label. Die neuesten Beiträge erscheinen hier automatisch.
+<!-- FEEDBACK-START -->
+## 💬 Community-Feedback & Ideen
 
-*Wird alle 30 Minuten aktualisiert...*
+Haben Sie eine Idee für ein neues Feature oder eine Frage zu meinen Projekten? Ich freue mich über jeden Input! Erstellen Sie einfach ein **[neues Issue](https://github.com/nakzyhyh/nakzyhyh/issues/new/choose)** und versehen Sie es mit dem `feedback`-Label.
+
+### 🔄 Neueste Feedback-Ideen:
+*Wird alle 30 Minuten automatisch aktualisiert...*
+<!-- FEEDBACK-END -->
+
 ---
 
 ## 🚀 Mein aktuelles Projekt
