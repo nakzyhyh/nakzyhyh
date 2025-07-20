@@ -1,0 +1,39 @@
+# .github/workflows/update-readme.yml
+name: Update README with Feedback
+
+on:
+  schedule:
+    # Läuft alle 30 Minuten
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+  issues:
+    types: [opened, edited, closed, reopened, labeled, unlabeled]
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Wichtig: Erlaubt der Action, in Ihr Repo zu schreiben
+      issues: read   # Wichtig: Erlaubt der Action, Ihre Issues zu lesen
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run script to update README
+        run: node scripts/update-feedback.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'CI: Update feedback list in README'
+          file_pattern: 'README.md'
