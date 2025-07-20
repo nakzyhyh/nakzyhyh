@@ -1,4 +1,4 @@
-# Hallo, ich bin Kai Hölters 👋
+# Hallo, ich bin Kai 👋
 
 Willkommen auf meinem GitHub-Profil! Ich bin leidenschaftlicher Entwickler. Meine Faszination gilt der Schnittstelle, an der Code auf komplexe Systeme trifft – sei es ein Computernetzwerk, eine Geschäftslogik oder die Struktur von Daten.
 
