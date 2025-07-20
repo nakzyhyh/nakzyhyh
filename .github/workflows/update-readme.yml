@@ -1,39 +1,56 @@
-# .github/workflows/update-readme.yml
-name: Update README with Feedback
+name: 🔄 Update README with Feedback
 
 on:
   schedule:
-    # Läuft alle 30 Minuten
-    - cron: '*/30 * * * *'
+    - cron: '*/30 * * * *'  # alle 30 Minuten
   workflow_dispatch:
-  issues:
-    types: [opened, edited, closed, reopened, labeled, unlabeled]
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # Wichtig: Erlaubt der Action, in Ihr Repo zu schreiben
-      issues: read   # Wichtig: Erlaubt der Action, Ihre Issues zu lesen
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Checkout Repo
+        uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
+      - name: Generate Feedback Block
+        run: |
+          echo "🔍 Hole Issues mit Label 'feedback'..."
+          FEEDBACK=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/${{ github.repository }}/issues?labels=feedback\&state=open\&per_page=5 | \
+            jq -r '.[] | "- [#" + (.number|tostring) + "](" + .html_url + ") – " + .title')
 
-      - name: Install dependencies
-        run: npm install
+          echo "✍️ Erstelle neuen Block..."
+          echo "<!-- FEEDBACK-START -->" > feedback.md
+          echo "## 💬 Community-Feedback & Ideen" >> feedback.md
+          echo "" >> feedback.md
+          echo "Haben Sie eine Idee für ein neues Feature oder eine Frage zu meinen Projekten? Ich freue mich über jeden Input! Erstellen Sie einfach ein **[neues Issue](https://github.com/${{ github.repository }}/issues/new/choose)** und versehen Sie es mit dem \`feedback\`-Label." >> feedback.md
+          echo "" >> feedback.md
+          echo "### 🔄 Neueste Feedback-Ideen:" >> feedback.md
+          if [[ -z "$FEEDBACK" ]]; then
+            echo "*Aktuell liegen keine offenen Feedback-Vorschläge vor.*" >> feedback.md
+          else
+            echo "$FEEDBACK" >> feedback.md
+          fi
+          echo "" >> feedback.md
+          echo "*Wird alle 30 Minuten automatisch aktualisiert...*" >> feedback.md
+          echo "<!-- FEEDBACK-END -->" >> feedback.md
 
-      - name: Run script to update README
-        run: node scripts/update-feedback.js
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Update README.md
+        run: |
+          echo "🔁 Ersetze Feedback-Block in README.md..."
+          awk '
+            BEGIN { found=0 }
+            /^<!-- FEEDBACK-START -->/ { print; while ((getline line < "feedback.md") > 0) print line; found=1; skip=1; next }
+            /^<!-- FEEDBACK-END -->/ { skip=0; next }
+            skip == 0 { print }
+          ' README.md > README_tmp.md
+          mv README_tmp.md README.md
 
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'CI: Update feedback list in README'
-          file_pattern: 'README.md'
+      - name: Commit and Push if Changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "🔄 Update feedback block"
+          git push
