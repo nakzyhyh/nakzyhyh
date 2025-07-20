@@ -14,6 +14,7 @@ Haben Sie eine Idee für ein neues Feature oder eine Frage zu meinen Projekten? 
 ---
 
 ## 🚀 Mein aktuelles Projekt
+![Lighthouse Banner](./assets/icon.png)
 
 ### 💡 Project Lighthouse: Intelligentes Netzwerk-Diagnose-Tool
 Ein Desktop-Tool für Windows, gebaut mit **Electron.js und Node.js**, das die Lücke zwischen einfachen Kommandozeilen-Befehlen (`ping`, `tracert`) und hochkomplexen Analyse-Suiten wie Wireshark schließt.
