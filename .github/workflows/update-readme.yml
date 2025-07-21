@@ -1,56 +1,111 @@
-name: 🔄 Update README with Feedback
+# .github/workflows/update-readme.yml
+name: 🔄 README mit Community-Feedback aktualisieren
+
+# Definiert die Berechtigungen, die dem GITHUB_TOKEN für diesen Workflow gewährt werden.
+# 'contents: write' ist notwendig, um die README.md zu ändern und zu pushen.
+permissions:
+  contents: write
 
 on:
+  # Läuft automatisch alle 30 Minuten.
   schedule:
-    - cron: '*/30 * * * *'  # alle 30 Minuten
+    - cron: '*/30 * * * *'
+  # Erlaubt das manuelle Starten des Workflows über die GitHub UI.
   workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
+      # ----------------------------------------------------------------
+      # Schritt 1: Repository auschecken
+      # ----------------------------------------------------------------
+      # Klont dein Repository in den Runner.
+      # persist-credentials: true ist entscheidend, damit der GITHUB_TOKEN
+      # für spätere Git-Operationen (wie git push) verfügbar bleibt.
+      - name: ⬇️ Repository auschecken
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
-      - name: Generate Feedback Block
+      # ----------------------------------------------------------------
+      # Schritt 2: Dynamischen Feedback-Block erstellen
+      # ----------------------------------------------------------------
+      # Ruft die neuesten 5 offenen Issues mit dem Label 'feedback' ab
+      # und formatiert sie als Markdown-Liste.
+      - name: 📝 Feedback-Block generieren
+        id: feedback_generator
         run: |
-          echo "🔍 Hole Issues mit Label 'feedback'..."
-          FEEDBACK=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-            https://api.github.com/repos/${{ github.repository }}/issues?labels=feedback\&state=open\&per_page=5 | \
+          FEEDBACK_CONTENT=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${{ github.repository }}/issues?labels=feedback&state=open&per_page=5&sort=created&direction=desc" | \
             jq -r '.[] | "- [#" + (.number|tostring) + "](" + .html_url + ") – " + .title')
 
-          echo "✍️ Erstelle neuen Block..."
-          echo "<!-- FEEDBACK-START -->" > feedback.md
-          echo "## 💬 Community-Feedback & Ideen" >> feedback.md
-          echo "" >> feedback.md
-          echo "Haben Sie eine Idee für ein neues Feature oder eine Frage zu meinen Projekten? Ich freue mich über jeden Input! Erstellen Sie einfach ein **[neues Issue](https://github.com/${{ github.repository }}/issues/new/choose)** und versehen Sie es mit dem \`feedback\`-Label." >> feedback.md
-          echo "" >> feedback.md
-          echo "### 🔄 Neueste Feedback-Ideen:" >> feedback.md
-          if [[ -z "$FEEDBACK" ]]; then
-            echo "*Aktuell liegen keine offenen Feedback-Vorschläge vor.*" >> feedback.md
-          else
-            echo "$FEEDBACK" >> feedback.md
+          if [[ -z "$FEEDBACK_CONTENT" ]]; then
+            FEEDBACK_CONTENT="*Aktuell liegen keine offenen Feedback-Vorschläge vor.*"
           fi
-          echo "" >> feedback.md
-          echo "*Wird alle 30 Minuten automatisch aktualisiert...*" >> feedback.md
-          echo "<!-- FEEDBACK-END -->" >> feedback.md
+          
+          # Multiline-String für die Ausgabe vorbereiten
+          {
+            echo "content<<EOF"
+            echo ""
+            echo "## 💬 Community-Feedback & Ideen"
+            echo ""
+            echo "Haben Sie eine Idee für ein neues Feature oder eine Frage zu meinen Projekten? Ich freue mich über jeden Input! Erstellen Sie einfach ein **[neues Issue](https://github.com/${{ github.repository }}/issues/new/choose)** und versehen Sie es mit dem \`feedback\`-Label."
+            echo ""
+            echo "### 🔄 Neueste Feedback-Ideen:"
+            echo "$FEEDBACK_CONTENT"
+            echo ""
+            echo "*Wird alle 30 Minuten automatisch aktualisiert…*"
+            echo ""
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
 
-      - name: Update README.md
+      # ----------------------------------------------------------------
+      # Schritt 3: README.md mit dem neuen Block aktualisieren
+      # ----------------------------------------------------------------
+      # Verwendet 'awk', um den Inhalt zwischen den Markern zu ersetzen.
+      # Dies ist eine robuste Methode, die keine zusätzlichen Actions benötigt.
+      - name: ✏️ README.md aktualisieren
         run: |
-          echo "🔁 Ersetze Feedback-Block in README.md..."
           awk '
-            BEGIN { found=0 }
-            /^<!-- FEEDBACK-START -->/ { print; while ((getline line < "feedback.md") > 0) print line; found=1; skip=1; next }
-            /^<!-- FEEDBACK-END -->/ { skip=0; next }
-            skip == 0 { print }
-          ' README.md > README_tmp.md
-          mv README_tmp.md README.md
+            BEGIN {
+              # Lese den neuen Inhalt aus der Umgebungsvariable
+              new_content = ENVIRON["NEW_CONTENT"]
+              # Entferne die umschließenden Marker aus dem Inhalt selbst
+              gsub(/^\n/, "", new_content)
+              gsub(/\n$/, "", new_content)
+              in_block = 0
+            }
+            /^/ {
+              print
+              print new_content
+              in_block = 1
+              next
+            }
+            /^/ {
+              print
+              in_block = 0
+              next
+            }
+            in_block == 1 { next }
+            { print }
+          ' README.md > README.tmp.md && mv README.tmp.md README.md
+        env:
+          NEW_CONTENT: "${{ steps.feedback_generator.outputs.content }}"
 
-      - name: Commit and Push if Changed
+      # ----------------------------------------------------------------
+      # Schritt 4: Änderungen committen und pushen (falls vorhanden)
+      # ----------------------------------------------------------------
+      # Konfiguriert Git mit einem Bot-Benutzer und pusht die Änderungen.
+      # Der Commit erfolgt nur, wenn 'git diff' eine Änderung an der README feststellt.
+      - name: 🚀 Änderungen committen und pushen
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --cached --quiet || git commit -m "🔄 Update feedback block"
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "🤖 Chore: Community-Feedback in README aktualisiert"
+            git push
+          else
+            echo "Keine Änderungen in der README.md. Nichts zu committen."
+          fi
