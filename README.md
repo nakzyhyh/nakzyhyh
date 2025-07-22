@@ -64,7 +64,7 @@
       <h3 align="center">Project Lighthouse: Netzwerk-Analyse-Toolkit</h3>
       <br />
       <a href="DEIN_LINK_ZUM_LIGHTHOUSE_REPO" target="_blank">
-        <img src="Assets/icon.png" alt="Project Lighthouse Logo" />
+        <img src="Assets/lighthouse.png" alt="Project Lighthouse Logo" />
       </a>
       <br />
       <p align="center">
