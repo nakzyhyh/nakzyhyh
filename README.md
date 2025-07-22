@@ -50,7 +50,7 @@
       <h3 align="center">GameGuard: Secure Your Play</h3>
       <br />
       <a href="DEIN_LINK_ZUM_GAMEGUARD_REPO" target="_blank">
-        <img src="gglogo.jpg" alt="GameGuard Logo" />
+        <img src="Assets/gglogo.png" alt="GameGuard Logo" />
       </a>
       <br />
       <p align="center">
@@ -64,7 +64,7 @@
       <h3 align="center">Project Lighthouse: Netzwerk-Analyse-Toolkit</h3>
       <br />
       <a href="DEIN_LINK_ZUM_LIGHTHOUSE_REPO" target="_blank">
-        <img src="https://raw.githubusercontent.com/KaiHoelters/DEIN_LIGHTHOUSE_REPO/main/icon.png" alt="Project Lighthouse Logo" />
+        <img src="Assets/icon.png" alt="Project Lighthouse Logo" />
       </a>
       <br />
       <p align="center">
