@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG1rbzFmdmN5NHRtc2xldHh0enJ3aHhsdmowYnJrcW52cGoyZmRyNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggACpCjoMAgT37/giphy.gif" width="100">
+  <a href="https://github.com/nakzyhyh">
+    <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+  </a>
 </p>
 
 <h1 align="center">
@@ -88,8 +90,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/nakzyhyh/nakzyhyh/output/github-contribution-grid-snake.svg" alt="Contribution Snake Animation" />
 </p>
-
-
 ### 📫 Kontakt
 
 <p align="center">
