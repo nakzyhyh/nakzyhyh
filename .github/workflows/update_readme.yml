@@ -1,0 +1,19 @@
+name: Update README
+
+on:
+  schedule:
+    # Läuft jeden Tag um Mitternacht
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Update quote section
+        uses: siddharth2016/quote-readme@main
+        with:
+          COMMIT_MESSAGE: "chore: Updated quote"
+          OPTION: "Famous Quotes"
