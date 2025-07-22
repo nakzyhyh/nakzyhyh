@@ -3,11 +3,11 @@
 </p>
 
 <h1 align="center">
-  Kai Hölters
+  Kai 
 </h1>
 
 <p align="center">
-  <strong>Auszubildender Fachinformatiker für Systemintegration | Software-Entwickler | Philosoph</strong>
+  <strong>Auszubildender Fachinformatiker für Systemintegration | Software-Entwickler | 
 </p>
 
 <p align="center">
