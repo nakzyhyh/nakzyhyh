@@ -61,17 +61,17 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">Project Lighthouse</h3>
+      <h3 align="center">Project Lighthouse: Netzwerk-Analyse-Toolkit</h3>
       <br />
       <a href="DEIN_LINK_ZUM_LIGHTHOUSE_REPO" target="_blank">
-        <img src="https://via.placeholder.com/400x300.png?text=Project+Lighthouse" alt="Project Lighthouse Placeholder" />
+        <img src="https://raw.githubusercontent.com/KaiHoelters/DEIN_LIGHTHOUSE_REPO/main/icon.png" alt="Project Lighthouse Logo" />
       </a>
       <br />
       <p align="center">
-        <em>Hier kannst du eine prägnante Beschreibung deines Lighthouse-Projekts einfügen. Was ist das Ziel des Projekts und welches Problem löst es?</em>
+        Ein All-in-One-Diagnosewerkzeug, das gängige Netzwerkbefehle in einer intuitiven GUI bündelt. Bietet eine szenariobasierte, geführte Fehlersuche, Live-Diagnose-Tools, einen LAN-Scanner und eine Prozess-Tiefenanalyse.
       </p>
       <p align="center">
-        <strong>Tech:</strong> <em>Technologien hier eintragen, z.B. Python, Django, React...</em>
+        <strong>Tech:</strong> Electron, Node.js, HTML, CSS, JavaScript
       </p>
     </td>
   </tr>
