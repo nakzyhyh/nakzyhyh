@@ -77,18 +77,6 @@
   </tr>
 </table>
 
----
-
-### 📊 Meine GitHub-Statistiken
-
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=DEIN_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub-Statistiken"/>
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DEIN_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&langs_count=8" alt="Top-Sprachen"/>
-  </a>
-</p>
-
----
 
 ### 📫 Kontakt
 
