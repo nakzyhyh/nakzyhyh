@@ -16,4 +16,5 @@ jobs:
         uses: siddharth2016/quote-readme@main
         with:
           COMMIT_MESSAGE: "chore: Updated quote"
-          OPTION: "Famous Quotes"
+          # KORRIGIERT: Wir wechseln zu einer zuverlässigeren Zitat-Quelle
+          OPTION: "Programming Quotes"
