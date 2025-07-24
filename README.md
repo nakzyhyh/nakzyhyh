@@ -9,7 +9,7 @@
 </h1>
 
 <p align="center">
-  <strong>Auszubildender Fachinformatiker für Systemintegration | Software-Entwickler | 
+  <strong>Auszubildender Fachinformatiker für Systemintegration | Software-Architekt | Didaktik-Enthusiast</strong>
 </p>
 
 <p align="center">
@@ -22,11 +22,11 @@
 
 - 👨‍💻 Als angehender **Fachinformatiker für Systemintegration** aus Jülich, NRW, baue ich eine Brücke zwischen komplexen Systemen und intuitiven Benutzererfahrungen.
 
-- 🚀 Aktuell entwickle ich mein Skill-Portfolio durch die Realisierung von praxisnahen Projekten wie **GameGuard** und **Project Lighthouse**. Mein Fokus liegt auf Sicherheit, Automatisierung und der Entwicklung durchdachter Software-Architekturen.
+- 🚀 Aktuell entwickle ich mein Skill-Portfolio durch die Realisierung von anspruchsvollen Projekten. Mein Fokus liegt auf Sicherheit, Automatisierung und der Entwicklung durchdachter Software-Architekturen, die psychologische und didaktische Prinzipien berücksichtigen.
 
 - 💡 Ich verbinde meine technische Ausbildung mit meinen tiefen Interessen in **Philosophie**, **Psychologie** und dem Streben nach Wissen. Kreative Hobbys wie **Klavier spielen**, **Zeichnen** und **Lesen** schärfen meine analytischen Fähigkeiten und fördern innovative Lösungsansätze.
 
-- 💬 Frag mich nach `PowerShell`, `Electron`, `JavaScript`, `Systemarchitektur` oder dem `Sinn des Lebens`. Ich bin immer offen für tiefgehende Diskussionen.
+- 💬 Frag mich nach `JavaScript`, `Systemarchitektur`, `Lernpsychologie` oder dem `Sinn des Lebens`. Ich bin immer offen für tiefgehende Diskussionen.
 
 ---
 
@@ -47,6 +47,22 @@
 ### 🚀 Meine Projekte
 
 <table>
+  <tr>
+    <td colspan="2">
+      <h3 align="center">SkillForge: IHK Lernabenteuer</h3>
+      <br />
+      <a href="DEIN_LINK_ZUM_SKILLFORGE_REPO" target="_blank">
+        <img src="data/skillforge_brand.png" alt="SkillForge Logo" />
+      </a>
+      <br />
+      <p align="center">
+        Eine adaptive Lern-App, die Fachinformatiker gezielt auf die IHK-Abschlussprüfung vorbereitet. SkillForge kombiniert ein psychologisch fundiertes Lernmodell (Lernen → Anwenden → Prüfen) mit Gamification-Elementen und praxisnahen, interaktiven Prüfungssimulationen, um nachhaltiges Wissen zu schaffen.
+      </p>
+      <p align="center">
+        <strong>Tech:</strong> HTML5, CSS3, Modern JavaScript (ES Modules)
+      </p>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">GameGuard: Secure Your Play</h3>
@@ -90,6 +106,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/nakzyhyh/nakzyhyh/output/github-contribution-grid-snake.svg" alt="Contribution Snake Animation" />
 </p>
+
 ### 📫 Kontakt
 
 <p align="center">
