@@ -10,18 +10,12 @@
 </h1>
 
 <p align="center">
-  <strong>Auszubildender Fachinformatiker für Systemintegration | Software-Architekt | Didaktik-Enthusiast</strong>
-</p>
-
-<p align="center">
   Willkommen auf meinem digitalen Campus. Hier verbinde ich Code mit Kreativität und strategischem Denken, um robuste und intelligente Lösungen zu entwickeln.
 </p>
 
 ---
 
 ### Über mich
-
-- 👨‍💻 Als angehender **Fachinformatiker für Systemintegration** aus Jülich, NRW, baue ich eine Brücke zwischen komplexen Systemen und intuitiven Benutzererfahrungen.
 
 - 🚀 Aktuell entwickle ich mein Skill-Portfolio durch die Realisierung von anspruchsvollen Projekten. Mein Fokus liegt auf Sicherheit, Automatisierung und der Entwicklung durchdachter Software-Architekturen, die psychologische und didaktische Prinzipien berücksichtigen.
 
