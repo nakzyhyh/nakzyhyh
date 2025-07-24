@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/nakzyhyh">
-    <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Software-Architekt;Systemintegrator;Didaktik-Enthusiast;Philosophie+%26+Psychologie;Code+for+a+better+Tomorrow" alt="Typing SVG" />
   </a>
 </p>
 
@@ -49,17 +49,17 @@
 <table>
   <tr>
     <td colspan="2">
-      <h3 align="center">SkillForge: IHK Lernabenteuer</h3>
+      <h3 align="center">SkillForge: Adaptives IHK-Lern-Ökosystem</h3>
       <br />
       <a href="DEIN_LINK_ZUM_SKILLFORGE_REPO" target="_blank">
         <img src="data/skillforge_brand.png" alt="SkillForge Logo" />
       </a>
       <br />
       <p align="center">
-        Eine adaptive Lern-App, die Fachinformatiker gezielt auf die IHK-Abschlussprüfung vorbereitet. SkillForge kombiniert ein psychologisch fundiertes Lernmodell (Lernen → Anwenden → Prüfen) mit Gamification-Elementen und praxisnahen, interaktiven Prüfungssimulationen, um nachhaltiges Wissen zu schaffen.
+        Eine progressive Web-App zur gezielten Vorbereitung auf die IHK-Abschlussprüfung für Fachinformatiker. SkillForge ist nicht nur eine simple Quiz-App, sondern ein <strong>umfassendes Lern-Ökosystem</strong>. Es basiert auf einem psychologisch fundierten 3-Phasen-Modell (Wissensaufnahme → Praxistransfer → Überprüfung) und nutzt einen <strong>adaptiven Lernpfad</strong> mit Spaced-Repetition-Logik, um den Wissenserhalt zu maximieren. Praxisnahe, interaktive Szenarien (wie Netzpläne, Subnetzberechnungen und Nutzwertanalysen) simulieren reale IHK-Aufgabenstellungen und fördern den Transfer von Theorie in die Praxis.
       </p>
       <p align="center">
-        <strong>Tech:</strong> HTML5, CSS3, Modern JavaScript (ES Modules)
+        <strong>Architektur & Tech:</strong> Modularer ES6-JavaScript-Code, Trennung von UI-Logik, State-Management und Lern-Services. Vorbereitet für eine Mongoose/MongoDB-Anbindung zur Persistenz von User-Fortschritten.
       </p>
     </td>
   </tr>
