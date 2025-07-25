@@ -47,7 +47,7 @@
       <h3 align="center">SkillForge: Adaptives IHK-Lern-Ökosystem</h3>
       <br />
       <a href="SkillForge_Logo.png" target="_blank">
-        <img src="data/skillforge_brand.png" alt="SkillForge Logo" />
+        <img src="Assets/SkillForge_Logo.png" alt="SkillForge Logo" />
       </a>
       <br />
       <p align="center">
