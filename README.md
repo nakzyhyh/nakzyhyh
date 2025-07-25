@@ -1,9 +1,11 @@
 <!-- Fancy Header -->
-![header](https://capsule-render.vercel.app/api?type=waving&height=230&color=0:36BCF7,100:9B5DE5&text=Kai%20—%20Systemarchitekt%20&%20Entwickler&fontSize=42&fontAlignY=40&fontColor=ffffff&desc=Code%20×%20Philosophie%20×%20Didaktik&descAlignY=58&animation=fadeIn)
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:36BCF7,100:9B5DE5&text=Kai%20&%20Entwickler&fontSize=42&fontAlignY=40&fontColor=ffffff&desc=Code%20×%20Philosophie%20×%20Didaktik&descAlignY=58&animation=fadeIn" alt="Header Banner"/>
+</p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Software-Entwickler+%26+Systemarchitektur;Didaktik-Enthusiast;Philosophie+%26+Psychologie;Code+for+a+better+Tomorrow" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Software-Entwickler+%26+Systemarchitektur;Didaktik-Enthusiast;Code+for+a+better+Tomorrow" alt="Typing Animation"/>
   </a>
 </p>
 
@@ -12,7 +14,7 @@
 ## 👋 Willkommen
 
 <p align="center">
-   Willkommen auf meinem digitalen Campus. Hier verbinde ich Code mit Kreativität und strategischem Denken, um robuste und intelligente Lösungen zu entwickeln.
+  Willkommen auf meinem digitalen Campus. Hier verbinde ich Code mit Kreativität und strategischem Denken, um robuste und intelligente Lösungen zu entwickeln.
 </p>
 
 ---
@@ -23,12 +25,15 @@
 - 💡 Ich verbinde technische Expertise mit **Philosophie**, **Psychologie** und kreativen Hobbys wie **Klavier**, **Zeichnen** und **Lesen**.  
 - 💬 Frag mich nach `JavaScript`, `Systemarchitektur`, `Lernpsychologie` oder dem `Sinn des Lebens`.
 
+---
+
 ## 🏆 Dynamische Inhalte
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=nakzyhyh&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15&margin-h=15" />
 </p>
 
+---
 
 ## 🛠 Tech Stack & Skills
 
@@ -87,13 +92,16 @@
 </table>
 
 ---
+
 ## 🐍 Contribution Snake
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nakzyhyh/nakzyhyh/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nakzyhyh/nakzyhyh/output/snake-light.svg" />
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/nakzyhyh/nakzyhyh/output/snake-dark.svg" />
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nakzyhyh/nakzyhyh/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nakzyhyh/nakzyhyh/output/snake-light.svg" />
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/nakzyhyh/nakzyhyh/output/snake-dark.svg" />
+  </picture>
+</p>
 
 ---
 
@@ -108,4 +116,6 @@
   </a>
 </p>
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:9B5DE5,100:36BCF7&height=120&section=footer)
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:9B5DE5,100:36BCF7&height=120&section=footer" alt="Footer Banner"/>
+</p>
