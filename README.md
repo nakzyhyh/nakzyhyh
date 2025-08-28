@@ -41,6 +41,36 @@
 
 ---
 
+## 🤖 AI-Enhanced Development
+
+> Von Daten zu Entscheidungen: RAG-Pipelines, Agenten & Multimodalität – beschleunigt mit Claude Opus & OpenAI.
+
+<p align="center">
+  <!-- Modelle & Provider -->
+  <img src="https://img.shields.io/badge/OpenAI%20API-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Claude%20Opus-0A7FFF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+</p>
+
+<p align="center">
+  <!-- Serving, MLOps & Observability -->
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Loki-1F60C4?style=for-the-badge"/>
+</p>
+
+<p align="center">
+  <!-- Multimodal & Codecs -->
+  <img src="https://img.shields.io/badge/Opus%20Codec-000000?style=for-the-badge"/>
+</p>
+
+
+
+
+---
+
 ## 🚀 Projekte
 
 <table>
