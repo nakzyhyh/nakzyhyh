@@ -23,15 +23,7 @@
 
 - 🚀 Aktuell baue ich ein **Skill-Portfolio** mit Fokus auf **Sicherheit, Automatisierung** und **durchdachte Software-Architekturen**.  
 - 💡 Ich verbinde technische Expertise mit **Philosophie**, **Psychologie** und kreativen Hobbys wie **Klavier**, **Zeichnen** und **Lesen**.  
-- 💬 Frag mich nach `JavaScript`, `Systemarchitektur`, `Lernpsychologie` oder dem `Sinn des Lebens`.
-
----
-
-## 🏆 Dynamische Inhalte
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=nakzyhyh&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15&margin-h=15" />
-</p>
+- ✍️ <strong>Autor</strong>: <em>Unter demselben Himmel</em> (Debütroman).
 
 ---
 
@@ -59,8 +51,8 @@
         <img src="Assets/SkillForge_Logo.png" width="400" alt="SkillForge Logo" />
       </p>
       <p align="center">
-        **SkillForge** ist eine progressive Web-App zur gezielten Vorbereitung auf IHK-Abschlussprüfungen für Fachinformatiker.  
-        Es basiert auf einem **psychologisch fundierten 3-Phasen-Modell** (Wissensaufnahme → Praxistransfer → Überprüfung) und bietet **adaptive Lernpfade**, Spaced-Repetition-Logik und realitätsnahe Szenarien (Subnetting, Nutzwertanalyse, Netzpläne).
+        <strong>SkillForge</strong> ist eine progressive Web-App zur gezielten Vorbereitung auf IHK-Abschlussprüfungen für Fachinformatiker.  
+        Es basiert auf einem <strong>psychologisch fundierten 3-Phasen-Modell</strong> (Wissensaufnahme → Praxistransfer → Überprüfung) und bietet <strong>adaptive Lernpfade</strong>, Spaced-Repetition-Logik und realitätsnahe Szenarien (Subnetting, Nutzwertanalyse, Netzpläne).
       </p>
       <p align="center">
         <strong>Architektur:</strong> Modularer ES6-Code, UI-State-Management, vorbereitet für MongoDB/Mongoose.
@@ -93,6 +85,32 @@
 
 ---
 
+## ⚙️ Architektur-Notiz aus einem aktuellen Projekt: Von Ereignis zu Erkenntnis (Prometheus • Loki • Grafana)
+
+```mermaid
+flowchart LR
+  A[Services/Apps] --> B[(Prometheus)]
+  A --> C[Promtail]
+  C --> D[(Loki)]
+  B --> E[Alertmanager]
+  B --> F[Grafana]
+  D --> F
+  E --> G[On-Call/Notification]
+
+  %% Styling (GH-kompatibel, ohne init)
+  classDef prom fill:#fce9e3,stroke:#e6522c,stroke-width:1px,color:#111;
+  classDef loki fill:#eaf3ff,stroke:#4a90e2,stroke-width:1px,color:#111;
+  classDef grafana fill:#fff0e6,stroke:#f46800,stroke-width:1px,color:#111;
+  classDef alert fill:#fdecea,stroke:#e6522c,stroke-width:1px,color:#111;
+
+  class B prom
+  class D loki
+  class F grafana
+  class E alert
+```
+
+---
+
 ## 🐍 Contribution Snake
 
 <p align="center">
@@ -108,11 +126,11 @@
 ## 📫 Kontakt
 
 <p align="center">
-  <a href="DEIN_LINKEDIN_PROFIL_LINK" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="DEIN_LINKEDIN_PROFIL_LINK">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
   </a>
-  <a href="mailto:DEINE_EMAIL@example.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="mailto:DEINE_EMAIL@example.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="E-Mail Badge" />
   </a>
 </p>
 
