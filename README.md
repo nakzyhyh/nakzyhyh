@@ -10,9 +10,6 @@
 </p>
 
 ---
-
-## 👋 Willkommen
-
 <p align="center">
   Willkommen auf meinem digitalen Campus. Hier verbinde ich Code mit Kreativität und strategischem Denken, um robuste und intelligente Lösungen zu entwickeln.
 </p>
@@ -47,7 +44,7 @@
 
 <p align="center">
   <!-- Modelle & Provider -->
-  <img src="https://img.shields.io/badge/OpenAI%20API-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenAI%20API/CODEX-412991?style=for-the-badge&logo=openai&logoColor=white"/>
   <img src="https://img.shields.io/badge/Claude%20Opus-0A7FFF?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
 </p>
@@ -61,10 +58,6 @@
   <img src="https://img.shields.io/badge/Loki-1F60C4?style=for-the-badge"/>
 </p>
 
-<p align="center">
-  <!-- Multimodal & Codecs -->
-  <img src="https://img.shields.io/badge/Opus%20Codec-000000?style=for-the-badge"/>
-</p>
 
 
 
