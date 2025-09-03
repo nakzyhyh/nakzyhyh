@@ -27,13 +27,25 @@
 ## 🛠 Tech Stack & Skills
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Linux-Ubuntu-blue?style=for-the-badge&logo=ubuntu"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Lens%20(K8s%20IDE)-6C4?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Loki-1F60C4?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Alloy-444?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Caddy%20(Reverse%20Proxy)-2CA02C?style=for-the-badge"/>
+</p>
+
+<p align="center">
+  <!-- Dev -->
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white"/>
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
 </p>
 
 ---
@@ -59,6 +71,18 @@
 </p>
 
 
+## 🔭 Traineeship Project: Kubernetes Observability E2E (2025)
+
+**Ziel:** Ende-zu-Ende Logging für einen K8s-Cluster – **sicher**, **reproduzierbar**, **rauscharm**.  
+**Ergebnis:** Pods → **Alloy (DaemonSet)** → **Loki** (DigitalOcean, hinter **Caddy/TLS + Auth**) → **Grafana** (Explore, Dashboards, Alerts).  
+**Workflow:** **Lens-first** zur Verifikation (Rollouts, Events, Logs, YAML-Diffs).
+
+### Was gelöst wurde
+- 🔒 **Security by Default**: TLS/Basic-Auth via Caddy, DO-Firewall (Allowlist), sofortige PW-Änderung, persistente Volumes + Backup-Plan.  
+- 🧹 **Signal statt Rauschen**: **Eigenlogs** (`monitoring` / `alloy`) werden **am Agent gedroppt** → geringere Kosten, klarere Dashboards.  
+- 🧭 **Bedienbarkeit**: Queries ans **tatsächliche Label-Set** angepasst; Live-Tail; Starter-Dashboard (Log-Rate, Errors, Top-Pods).  
+- 🧰 **Pro-Workflow**: Rollouts **ohne** Annotation-Hack → `kubectl rollout restart ds/alloy -n monitoring`.  
+- 🧪 **Smoke-Test dokumentiert**: Eigenlogs nur als **Phase-0** zur Pipeline-Validierung, danach Apps-Sicht.
 
 
 
@@ -106,33 +130,6 @@
   </tr>
 </table>
 
----
-
-## ⚙️ Architektur-Notiz aus einem aktuellen Projekt: Von Ereignis zu Erkenntnis (Prometheus • Loki • Grafana)
-
-```mermaid
-flowchart LR
-  A[Services/Apps] --> B[(Prometheus)]
-  A --> C[Promtail]
-  C --> D[(Loki)]
-  B --> E[Alertmanager]
-  B --> F[Grafana]
-  D --> F
-  E --> G[On-Call/Notification]
-
-  %% Styling (GH-kompatibel, ohne init)
-  classDef prom fill:#fce9e3,stroke:#e6522c,stroke-width:1px,color:#111;
-  classDef loki fill:#eaf3ff,stroke:#4a90e2,stroke-width:1px,color:#111;
-  classDef grafana fill:#fff0e6,stroke:#f46800,stroke-width:1px,color:#111;
-  classDef alert fill:#fdecea,stroke:#e6522c,stroke-width:1px,color:#111;
-
-  class B prom
-  class D loki
-  class F grafana
-  class E alert
-```
-
----
 
 ## 🐍 Contribution Snake
 
