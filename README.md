@@ -40,53 +40,55 @@
 <hr/>
 <br/>
 
-<table>
-  <thead>
-    <tr>
-      <th align="left">BACK-END</th>
-      <th align="left">FRONT-END</th>
-      <th align="left">FRAMEWORKS</th>
-      <th align="left">CONTAINER / ORCHESTRATORS</th>
-      <th align="left">OBSERVABILITY</th>
-      <th align="left">AI / DATA</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="36"/>&nbsp;
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-plain.svg" height="36"/>&nbsp;
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="36"/>
-      </td>
-      <td>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="36"/>&nbsp;
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="36"/>&nbsp;
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="36"/>
-      </td>
-      <td>
-        <img src="https://cdn.simpleicons.org/fastapi/009688" height="36"/>&nbsp;
-        <img src="https://cdn.simpleicons.org/electron/2B2E3B" height="36"/>
-      </td>
-      <td>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="36"/>&nbsp;
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="36"/>&nbsp;
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/helm/helm-original.svg" height="36"/>&nbsp;
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="36"/>
-      </td>
-      <td>
-        <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/grafana.svg" height="36"/>&nbsp;
-        <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/prometheus.svg" height="36"/>&nbsp;
-        <img src="https://cdn.simpleicons.org/caddy/2CA02C" height="36"/>
-      </td>
-      <td>
-        <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" height="36"/>&nbsp;
-        <img src="https://cdn.simpleicons.org/scikitlearn/F7931E" height="36"/>&nbsp;
-        <img src="https://cdn.simpleicons.org/openai/412991" height="36"/>&nbsp;
-        <img src="https://cdn.simpleicons.org/leaflet/199900" height="36"/>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th align="left">BACK-END</th>
+        <th align="left">FRONT-END</th>
+        <th align="left">FRAMEWORKS</th>
+        <th align="left">CONTAINER / ORCHESTRATORS</th>
+        <th align="left">OBSERVABILITY</th>
+        <th align="left">AI / DATA</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="36"/>&nbsp;
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-plain.svg" height="36"/>&nbsp;
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="36"/>
+        </td>
+        <td>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="36"/>&nbsp;
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="36"/>&nbsp;
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="36"/>
+        </td>
+        <td>
+          <img src="https://cdn.simpleicons.org/fastapi/009688" height="36"/>&nbsp;
+          <img src="https://cdn.simpleicons.org/electron/2B2E3B" height="36"/>
+        </td>
+        <td>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="36"/>&nbsp;
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="36"/>&nbsp;
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/helm/helm-original.svg" height="36"/>&nbsp;
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="36"/>
+        </td>
+        <td>
+          <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/grafana.svg" height="36"/>&nbsp;
+          <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/prometheus.svg" height="36"/>&nbsp;
+          <img src="https://cdn.simpleicons.org/caddy/2CA02C" height="36"/>
+        </td>
+        <td>
+          <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" height="36"/>&nbsp;
+          <img src="https://cdn.simpleicons.org/scikitlearn/F7931E" height="36"/>&nbsp;
+          <img src="https://cdn.simpleicons.org/openai/412991" height="36"/>&nbsp;
+          <img src="https://cdn.simpleicons.org/leaflet/199900" height="36"/>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <br/>
 <hr/>
