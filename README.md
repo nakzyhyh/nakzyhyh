@@ -9,6 +9,7 @@
   </a>
 </p>
 
+
 ---
 <p align="center">
   Willkommen auf meinem digitalen Campus. Hier verbinde ich Code mit Kreativität und strategischem Denken, um robuste und intelligente Lösungen zu entwickeln.
@@ -24,52 +25,53 @@
 
 ---
 
-## 🛠 Tech Stack & Skills
+## 🛠 Tech Stack & Skills (Originale Icons)
 
+<!-- Dev / Core -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Linux-Ubuntu-blue?style=for-the-badge&logo=ubuntu"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Lens%20(K8s%20IDE)-6C4?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Loki-1F60C4?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Alloy-444?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Caddy%20(Reverse%20Proxy)-2CA02C?style=for-the-badge"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="Node.js"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-plain.svg" height="40" alt="PowerShell"/>
 </p>
 
+<!-- DevOps / Platforms -->
 <p align="center">
-  <!-- Dev -->
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="Docker"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="40" alt="Kubernetes"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/helm/helm-original.svg" height="40" alt="Helm"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="Linux"/>
+  <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/digitalocean.svg" height="40" alt="DigitalOcean"/>
+  <img src="https://cdn.simpleicons.org/caddy/2CA02C" height="40" alt="Caddy"/>
+</p>
+
+<!-- Observability -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/grafana.svg" height="40" alt="Grafana"/>
+  <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/prometheus.svg" height="40" alt="Prometheus"/>
+  <img src="https://cdn.simpleicons.org/grafana/1F60C4" height="40" alt="Loki"/>
+  <img src="https://cdn.simpleicons.org/grafana/444" height="40" alt="Alloy"/>
+  <img src="https://cdn.simpleicons.org/lens/5B9BD5" height="40" alt="Lens"/>
+</p>
+
+<!-- AI / Data -->
+<p align="center">
+  <img src="https://cdn.simpleicons.org/fastapi/009688" height="40" alt="FastAPI"/>
+  <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" height="40" alt="PyTorch"/>
+  <img src="https://cdn.simpleicons.org/scikitlearn/F7931E" height="40" alt="scikit-learn"/>
+  <img src="https://cdn.simpleicons.org/openai/412991" height="40" alt="OpenAI"/>
+  <img src="https://cdn.simpleicons.org/anthropic/0A7FFF" height="40" alt="Anthropic"/>
+  <img src="https://cdn.simpleicons.org/leaflet/199900" height="40" alt="Leaflet"/>
 </p>
 
 ---
 
 ## 🤖 AI-Enhanced Development
 
-> Von Daten zu Entscheidungen: RAG-Pipelines, Agenten & Multimodalität – beschleunigt mit Claude Opus & OpenAI.
+> Von Daten zu Entscheidungen: RAG-Pipelines, Agenten & Multimodalität – mit OpenAI & Claude orchestriert.
 
-<p align="center">
-  <!-- Modelle & Provider -->
-  <img src="https://img.shields.io/badge/OpenAI%20API/CODEX-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Claude%20Opus-0A7FFF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-</p>
-
-<p align="center">
-  <!-- Serving, MLOps & Observability -->
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Loki-1F60C4?style=for-the-badge"/>
-</p>
-
+---
 
 ## 🔭 Traineeship Project: Kubernetes Observability E2E (2025)
 
@@ -84,52 +86,63 @@
 - 🧰 **Pro-Workflow**: Rollouts **ohne** Annotation-Hack → `kubectl rollout restart ds/alloy -n monitoring`.  
 - 🧪 **Smoke-Test dokumentiert**: Eigenlogs nur als **Phase-0** zur Pipeline-Validierung, danach Apps-Sicht.
 
-
-
 ---
 
 ## 🚀 Projekte
 
-<table>
-  <tr>
-    <td colspan="2">
-      <h3 align="center">SkillForge: Adaptives IHK-Lern-Ökosystem</h3>
-      <p align="center">
-        <img src="Assets/SkillForge_Logo.png" width="400" alt="SkillForge Logo" />
-      </p>
-      <p align="center">
-        <strong>SkillForge</strong> ist eine progressive Web-App zur gezielten Vorbereitung auf IHK-Abschlussprüfungen für Fachinformatiker.  
-        Es basiert auf einem <strong>psychologisch fundierten 3-Phasen-Modell</strong> (Wissensaufnahme → Praxistransfer → Überprüfung) und bietet <strong>adaptive Lernpfade</strong>, Spaced-Repetition-Logik und realitätsnahe Szenarien (Subnetting, Nutzwertanalyse, Netzpläne).
-      </p>
-      <p align="center">
-        <strong>Architektur:</strong> Modularer ES6-Code, UI-State-Management, vorbereitet für MongoDB/Mongoose.
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">GameGuard: Secure Your Play</h3>
-      <p align="center">
-        <img src="Assets/gglogo.png" width="200" alt="GameGuard Logo" />
-      </p>
-      <p align="center">
-        Ein Desktop-Tool für eine sichere Spielumgebung: automatisierter VPN-Tunnel (WireGuard/OpenVPN), Firewall-Isolation und Kill-Switch.
-      </p>
-      <p align="center"><strong>Tech:</strong> Electron, Node.js, PowerShell</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">Project Lighthouse</h3>
-      <p align="center">
-        <img src="Assets/lighthouse.png" width="200" alt="Lighthouse Logo" />
-      </p>
-      <p align="center">
-        Ein All-in-One-Diagnosewerkzeug mit Netzwerkbefehlen, LAN-Scanner, Live-Diagnose und geführter Fehlersuche.
-      </p>
-      <p align="center"><strong>Tech:</strong> Electron, Node.js, HTML, CSS</p>
-    </td>
-  </tr>
-</table>
+### MYCora (kompakt, mit AI-Tech)
+Kern-Use-Case: **Pilzfunde dokumentieren**, filtern & **KI‑Vorschlag** zur Bestimmung.  
+**Frontend:** Journal/Karten, Overlay mit Chips & Galerie, Leaflet-Karte, Import/Export (JSON).  
+**Bekannte Limits:** **localStorage‑Quota** (`mycora_autobak_v2`), Mini‑Map‑Feed fixen, SW nur UI‑offline.
 
+<details>
+  <summary><b>AI‑Funktionen & Technik</b> (präzise, kompakt)</summary>
+
+  <b>Funktionen</b>  
+  • <b>KI trainieren aus Journal</b> → lernt ein erklärbares <i>Merkmals-/Artenmodell</i> aus gelabelten Einträgen (Bilder + Artname).  
+  • <b>KI‑Vorschlag</b> → Bild hochladen, Top‑k‑Scores mit Konfidenzen.
+
+  <b>Pipeline</b>  
+  1) <i>Embedding</i>: MobileNet v3 Large (TorchVision), Kopf entfernt → Feature‑Vektor  \n
+  2) <i>Classifier</i>: Logistic Regression (One‑vs‑Rest), scikit‑learn (optional Kalibrierung)
+
+  <b>Preprocessing</b>  
+  Resize 224×224 • CenterCrop • Normalize (ImageNet µ/σ) • optionale Augmentation
+
+  <b>Serving</b>  
+  FastAPI/Uvicorn • Endpunkte: <code>GET /health</code>, <code>POST /traits/train</code>, <code>POST /traits/predict</code> • Modell unter <code>MODEL_DIR/trait_model.pkl</code>, Warm‑Reload
+
+  <b>Qualität & Betrieb</b>  
+  Top‑k=5 • Score‑Threshold (z. B. ≥0.55) → „unsicher“ • Infer ≈ 50–150 ms/CPU (CX22) • Bilder nur für Embedding/Infer • Backups/Modelle auf Storage‑Box (SSHFS)
+</details>
+
+---
+
+### SkillForge: Adaptives IHK-Lern-Ökosystem
+PWA zur IHK-Vorbereitung (FISI). **3-Phasen-Modell** (Wissensaufnahme → Praxistransfer → Überprüfung), **Spaced Repetition**, realitätsnahe Szenarien (Subnetting, Nutzwertanalyse, Netzpläne).  
+**Architektur:** Modularer ES6-Code, UI-State-Management, vorbereitet für MongoDB/Mongoose.
+
+---
+
+### GameGuard: Secure Your Play
+Desktop-Tool für eine sichere Spielumgebung: automatisierter VPN-Tunnel (WireGuard/OpenVPN), Firewall-Isolation & Kill-Switch.  
+**Tech:** Electron, Node.js, PowerShell.
+
+---
+
+### Project Lighthouse
+All-in-One-Diagnose: Netzwerkbefehle, LAN-Scanner, Live-Diagnose & geführte Fehlersuche.  
+**Tech:** Electron, Node.js, HTML, CSS.
+
+---
+
+### Weitere Lösungen (kurz)
+- **n8n Workflow-Templates** (Shopify, Content-Automation), Dockerized, self-hosted.  
+- **Observability-Blueprint** (Loki/Grafana/Alloy) – TLS, Auth, DO-Firewall.  
+- **PowerShell-Skripte** (Windows-Deployment, Netzwerk-Checks, Backup/Sync).  
+- **Portfolio-PWA** (HTML/CSS/JS) mit Offline-Cache & modularen Komponenten.
+
+---
 
 ## 🐍 Contribution Snake
 
@@ -146,11 +159,12 @@
 ## 📫 Kontakt
 
 <p align="center">
-  <a href="DEIN_LINKEDIN_PROFIL_LINK">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
+  <a href="https://n8nk-ai.de">
+    <img src="https://cdn.simpleicons.org/vercel/000000" height="22" alt="Vercel"/> n8nk-ai.de
   </a>
-  <a href="mailto:DEINE_EMAIL@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="E-Mail Badge" />
+  &nbsp;•&nbsp;
+  <a href="https://github.com/nakzyhyh">
+    <img src="https://cdn.simpleicons.org/github/ffffff" height="22" alt="GitHub"/> @nakzyhyh
   </a>
 </p>
 
