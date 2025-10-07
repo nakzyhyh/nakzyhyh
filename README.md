@@ -80,10 +80,10 @@
           <img src="https://cdn.simpleicons.org/caddy/2CA02C" height="36"/>
         </td>
         <td>
-          <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" height="36"/>&nbsp;
-          <img src="https://cdn.simpleicons.org/scikitlearn/F7931E" height="36"/>&nbsp;
-          <img src="https://cdn.simpleicons.org/openai/412991" height="36"/>&nbsp;
-          <img src="https://cdn.simpleicons.org/leaflet/199900" height="36"/>
+          <img src="https://cdn.simpleicons.org/ollama/888888" title="Ollama" height="36"/>&nbsp;
+          <img src="https://cdn.simpleicons.org/google-gemini/8E44AD" title="Google Gemini" height="36"/>&nbsp;
+          <img src="https://cdn.simpleicons.org/anthropic/D0A17D" title="Anthropic Claude" height="36"/>&nbsp;
+          <img src="https://cdn.simpleicons.org/chatgpt/74AA9C" title="ChatGPT" height="36"/>
         </td>
       </tr>
     </tbody>
